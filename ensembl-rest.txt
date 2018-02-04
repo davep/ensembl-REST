@@ -1,0 +1,12 @@
+# -*- restclient -*-
+
+# Just some simple experiments with the Ensembl REST API. See
+# https://rest.ensembl.org/ for more details.
+
+# This document is a GNU/Emacs restclient document. See
+# https://github.com/pashky/restclient.el for more details.
+
+# Get a list of species.
+GET http://rest.ensembl.org/info/species
+Content-type: application/json
+
