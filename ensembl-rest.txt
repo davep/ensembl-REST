@@ -26,3 +26,6 @@ Content-type: application/json
 GET http://rest.ensembl.org/info/species
 Content-type: application/json
 
+# List the names of analyses involved in generating human data.
+GET http://rest.ensembl.org/info/analysis/9606
+Content-type: application/json
