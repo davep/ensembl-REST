@@ -33,3 +33,7 @@ Content-type: application/json
 # Get a sequence for a gene.
 GET http://rest.ensembl.org/sequence/id/ENSG00000121766
 Content-type: application/json
+
+# Get a sequence for a specific region.
+GET https://rest.ensembl.org/sequence/region/human/22:29890000..29890100
+Content-type: application/json
