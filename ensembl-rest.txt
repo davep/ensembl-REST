@@ -10,6 +10,10 @@
 GET http://rest.ensembl.org/info/ping
 Content-type: application/json
 
+# Service version number.
+GET http://rest.ensembl.org/info/rest
+Content-type: application/json
+
 # Get a list of species.
 GET http://rest.ensembl.org/info/species
 Content-type: application/json
