@@ -29,3 +29,7 @@ Content-type: application/json
 # List the names of analyses involved in generating human data.
 GET http://rest.ensembl.org/info/analysis/9606
 Content-type: application/json
+
+# Get a sequence.
+GET http://rest.ensembl.org/sequence/id/ENSG00000121766
+Content-type: application/json
