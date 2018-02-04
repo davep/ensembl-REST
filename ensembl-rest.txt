@@ -18,6 +18,10 @@ Content-type: application/json
 GET http://rest.ensembl.org/info/software
 Content-type: application/json
 
+# Get data releases.
+GET http://rest.ensembl.org/info/data
+Content-type: application/json
+
 # Get a list of species.
 GET http://rest.ensembl.org/info/species
 Content-type: application/json
