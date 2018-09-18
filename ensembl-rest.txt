@@ -34,6 +34,10 @@ Content-type: application/json
 GET http://rest.ensembl.org/info/analysis/9606
 Content-type: application/json
 
+# List all populations for humans.
+GET http://rest.ensembl.org/info/variation/populations/9606
+Content-type: application/json
+
 # Get a sequence for a gene.
 GET http://rest.ensembl.org/sequence/id/ENSG00000121766
 Content-type: application/json
